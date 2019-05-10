@@ -1,0 +1,15 @@
+.crop {
+  overflow: hidden;
+  /*padding:unset;
+  clip:auto;*/
+}
+
+th, td, div, span, th {
+  padding: 1px;
+  margin: 1px;
+  display: inline-block;
+}
+
+div {
+  cursor: pointer;
+}
