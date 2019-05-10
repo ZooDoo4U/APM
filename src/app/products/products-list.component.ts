@@ -3,7 +3,7 @@ import { IProduct } from "./product";
 import { ProductService } from "./product.service";
 
 @Component( {
-  selector: "pm-products",                                  
+  //selector: "pm-products",  -- Not needed as we are using routing now...
   templateUrl: "./products-list.component.html",
   styleUrls: ['./products-list.component.css'] 
 } )
